@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们 - vicable | 专业光纤光缆供应商</title>
+    <meta name="description" content="vicable - 10年专业光纤光缆制造商，拥有先进的生产设备和严格的质量管理体系">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo.jpg" alt="vicable" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="logo-text" style="display:none">vicable</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link" data-i18n="home">首页</a>
+                <a href="products.html" class="nav-link" data-i18n="products">产品中心</a>
+                <a href="about.html" class="nav-link active" data-i18n="about">关于我们</a>
+                <a href="contact.html" class="nav-link" data-i18n="contact">联系我们</a>
+            </nav>
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-selector" onchange="changeLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </div>
+            <button class="menu-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="hero-badge" data-i18n="heroBadge">About Us</span>
+            <h1 class="page-title" data-i18n="aboutTitle">关于我们</h1>
+            <p class="page-desc" data-i18n="aboutDesc">10年深耕光纤通讯领域，致力于为全球客户提供卓越的光纤光缆定制方案</p>
+        </div>
+    </section>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 data-i18n="aboutHeroTitle">连接世界，创造价值</h2>
+                    <p data-i18n="aboutHeroDesc1">vicable成立于2016年，是一家专业从事光纤光缆研发、生产和销售的高新技术企业。公司总部位于中国深圳，拥有完整的产业链和先进的生产设备。</p>
+                    <p data-i18n="aboutHeroDesc2">我们始终坚持以客户需求为导向，以技术创新为驱动，致力于为全球通信运营商、数据中心、企业网络提供高品质的光纤光缆产品和定制方案。</p>
+                    <p data-i18n="aboutHeroDesc3">经过10年的发展，公司产品已远销欧洲、北美、东南亚、中东、非洲等50多个国家和地区，与众多知名企业建立了长期稳定的合作关系。</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">10+</span>
+                            <span class="stat-label" data-i18n="yearsExp">年行业经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">50+</span>
+                            <span class="stat-label" data-i18n="countriesExport">国家出口</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">100+</span>
+                            <span class="stat-label" data-i18n="partners">合作企业</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image">
+                        <img src="images/products/about-factory.png" alt="vicable工厂" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 200 150%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22200%22 height=%22150%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22100%22 y=%2280%22 text-anchor=%22middle%22 font-size=%2214%22>公司照片</text></svg>'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"> REVIEWS </span>
+                <h2 class="section-title" data-i18n="reviewsTitle">客户好评</h2>
+                <p class="section-desc" data-i18n="reviewsDesc">真实客户反馈，见证品质与服务</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-1.jpg" alt="客户好评截图1" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图1</text></svg>'">
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-2.jpg" alt="客户好评截图2" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图2</text></svg>'">
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-3.jpg" alt="客户好评截图3" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图3</text></svg>'">
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-4.jpg" alt="客户好评截图4" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图4</text></svg>'">
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-5.jpg" alt="客户好评截图5" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图5</text></svg>'">
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="images/reviews/review-6.jpg" alt="客户好评截图6" onerror="this.style.display='none';this.parentElement.innerHTML='<svg viewBox=%220 0 400 300%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22><rect fill=%22%230d1d31%22 width=%22400%22 height=%22300%22 rx=%228%22/><text fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2214%22>聊天截图6</text></svg>'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"> ADVANTAGE </span>
+                <h2 class="section-title" data-i18n="advantageTitle">我们的优势</h2>
+                <p class="section-desc" data-i18n="advantageDesc">专业技术，卓越品质，值得信赖</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="iso9001">ISO9001认证</h3>
+                    <p data-i18n="iso9001Desc">严格质量管理体系，每根光纤经过56道检测工序，确保产品100%合格</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="advancedEquip">先进设备</h3>
+                    <p data-i18n="advancedEquipDesc">引进德国、瑞士先进生产线，自动化程度高，产品一致性好</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="rdCapability">研发实力</h3>
+                    <p data-i18n="rdCapabilityDesc">拥有资深研发团队，与科研院所合作，持续技术创新</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="customService">定制服务</h3>
+                    <p data-i18n="customServiceDesc">可根据客户需求提供个性化定制，最小起订量灵活</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <h2 class="cta-title" data-i18n="ctaTitle2">期待与您合作</h2>
+            <p class="cta-desc" data-i18n="ctaDesc2">联系我们的专业团队，获取最适合您的解决方案</p>
+            <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="contactUs">联系我们</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo/logo.jpg" alt="vicable" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span>vicable</span>
+                    </a>
+                    <p class="footer-desc" data-i18n="footerDesc">专业光纤光缆制造商，致力于为全球客户提供高品质通讯产品</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="aboutUs">关于我们</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-i18n="companyIntro">公司介绍</a></li>
+                        <li><a href="about.html" data-i18n="productionEquipment">生产设备</a></li>
+                        <li><a href="about.html" data-i18n="qualityCert">质量认证</a></li>
+                        <li><a href="about.html" data-i18n="partners2">合作客户</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="contactUs2">联系我们</h4>
+                    <ul class="footer-links">
+                        <li><span data-i18n="phone">电话</span>: +86 188-1854-8214</li>
+                        <li><span data-i18n="email">邮箱</span>: info@vicable.com</li>
+                        <li><span data-i18n="address">地址</span>: 中国广东省深圳市</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 vicable. <span data-i18n="copyright">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

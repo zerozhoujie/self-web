@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-title="heroBadge">vicable - Professional Fiber Optic Cable Manufacturer</title>
+    <meta name="description" content="Professional fiber optic cable manufacturer, providing high-quality fiber cables, patch cords, and accessories, exported to 100+ countries worldwide">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo.jpg" alt="vicable" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="logo-text" style="display:none">vicable</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active" data-i18n="home">Home</a>
+                <a href="products.html" class="nav-link" data-i18n="products">Products</a>
+                <a href="about.html" class="nav-link" data-i18n="about">About Us</a>
+                <a href="contact.html" class="nav-link" data-i18n="contact">Contact</a>
+            </nav>
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-selector" onchange="changeLanguage(this.value)">
+                    <option value="en" selected>English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-pattern"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge" data-i18n="heroBadge">Professional Fiber Optic Manufacturer</span>
+                <h2 class="hero-title" data-i18n="heroTitle">
+                    Global  Links<br>
+                    <span class="highlight" data-i18n="heroTitle2">Local  Trust</span>
+                </h2>
+                <p class="hero-desc" data-i18n="heroDesc">
+                    10 years of industry experience, dedicated to R&D and production of high-quality fiber optic cables<br>
+                    Products exported to 100+ countries and regions
+                </p>
+                <div class="hero-btns">
+                    <a href="products.html" class="btn btn-primary" data-i18n="viewProducts">View Products</a>
+                    <a href="contact.html" class="btn btn-outline" data-i18n="contactNow">Contact Now</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label" data-i18n="yearsExp">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label" data-i18n="countriesExport">Countries Export</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100+</span>
+                        <span class="stat-label" data-i18n="partners">Partners</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="fiber-ring"></div>
+                <div class="fiber-ring delay-1"></div>
+                <div class="fiber-ring delay-2"></div>
+                <div class="hero-image">
+                    <img src="images/products/hero-product.png" alt="Fiber Optic Products" onerror="this.parentElement.style.display='none'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Preview -->
+    <section class="products-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"> PRODUCTS </span>
+                <h2 class="section-title" data-i18n="productsTitle">Core Products</h2>
+                <p class="section-desc" data-i18n="productsDesc">Using high-quality raw materials, advanced production process, strict quality control</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/products/product-1.png" alt="Single Mode Fiber" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%230a1628%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2220%22%3ESingle Mode Fiber%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3>Single Mode Fiber</h3>
+                        <p>Long distance transmission, low loss, high bandwidth</p>
+                        <a href="products.html" class="product-link">Learn More →</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/products/product-2.png" alt="Multi Mode Fiber" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%230a1628%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2220%22%3EMulti Mode Fiber%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3>Multi Mode Fiber</h3>
+                        <p>Short distance transmission, high cost-effectiveness</p>
+                        <a href="products.html" class="product-link">Learn More →</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/products/product-3.png" alt="Fiber Patch Cord" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%230a1628%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2220%22%3EFiber Patch Cord%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fiber Patch Cord</h3>
+                        <p>LC/SC/FC/ST multi-spec, stable quality</p>
+                        <a href="products.html" class="product-link">Learn More →</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/products/product-4.png" alt="Fiber Termination Box" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%230a1628%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%2300d4ff%22 x=%22200%22 y=%22150%22 text-anchor=%22middle%22 font-size=%2220%22%3EFiber Termination Box%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fiber Termination Box</h3>
+                        <p>Fiber distribution protection, wall-mounted/rack-mounted</p>
+                        <a href="products.html" class="product-link">Learn More →</a>
+                    </div>
+                </article>
+            </div>
+            <div class="products-more">
+                <a href="products.html" class="btn btn-secondary" data-i18n="viewAllProducts">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="iso9001">ISO9001 Certified</h3>
+                    <p data-i18n="iso9001Desc">Strict quality management system, every fiber undergoes 56 tests</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="globalLogistics">Global Logistics</h3>
+                    <p data-i18n="globalLogisticsDesc">Efficient logistics network covering 100+ countries</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="qualityGuarantee">Quality Guarantee</h3>
+                    <p data-i18n="qualityGuaranteeDesc">100% inspection before shipping, professional technical support team</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="customService">Custom Service</h3>
+                    <p data-i18n="customServiceDesc">Custom products available per customer requirements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <h2 class="cta-title" data-i18n="ctaTitle">Your Trusted Partner in Optical Connectivity.</h2>
+            <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="contactUs">Contact Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo/logo.jpg" alt="vicable" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span>vicable</span>
+                    </a>
+                    <p class="footer-desc" data-i18n="footerDesc">Professional fiber optic cable manufacturer, committed to providing high-quality communication products to global customers</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="aboutUs">About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-i18n="companyIntro">Company Introduction</a></li>
+                        <li><a href="about.html" data-i18n="productionEquipment">Production Equipment</a></li>
+                        <li><a href="about.html" data-i18n="qualityCert">Quality Certification</a></li>
+                        <li><a href="about.html" data-i18n="partners2">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="contactUs2">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><span data-i18n="phone">Phone</span>: +86 188-1854-8214</li>
+                        <li><span data-i18n="email">Email</span>: info@vicable.com</li>
+                        <li><span data-i18n="address">Address</span>: Shenzhen, Guangdong, China</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 vicable. <span data-i18n="copyright">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

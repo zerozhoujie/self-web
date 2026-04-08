@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - vicable | Professional Fiber Optic Cable Manufacturer</title>
+    <meta name="description" content="vicable Products: Single mode fiber, multi mode fiber, patch cords, fiber accessories and more">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo.jpg" alt="vicable" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="logo-text" style="display:none">vicable</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link" data-i18n="home">Home</a>
+                <a href="products.html" class="nav-link active" data-i18n="products">Products</a>
+                <a href="about.html" class="nav-link" data-i18n="about">About Us</a>
+                <a href="contact.html" class="nav-link" data-i18n="contact">Contact</a>
+            </nav>
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-selector" onchange="changeLanguage(this.value)">
+                    <option value="en" selected>English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="hero-badge">Products Catalog</span>
+            <h1 class="page-title" data-i18n="productsPageTitle">Products Catalog</h1>
+            <p class="page-desc" data-i18n="productsPageDesc">10 years of expertise in fiber optic R&D, providing high-quality communication solutions for global customers</p>
+        </div>
+    </section>
+
+    <!-- Products Section with Category -->
+    <section class="products-catalog">
+        <div class="container">
+            <div class="catalog-layout">
+                <!-- Left Sidebar - Categories -->
+                <aside class="catalog-sidebar">
+                    <h3 class="sidebar-title" data-i18n="categories">Product Categories</h3>
+                    <ul class="category-list">
+                        <li>
+                            <button class="category-btn active" data-category="fiber-cable">
+                                <span class="category-icon">&#9679;</span>
+                                OUTDOOR FIBER OPTIC CABLE
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="patchcord">
+                                <span class="category-icon">&#9679;</span>
+                                INDOOR FIBER OPTIC CABLE
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="odf">
+                                <span class="category-icon">&#9679;</span>
+                                FTTH CABLE
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="cabinet">
+                                <span class="category-icon">&#9679;</span>
+                                PIGTAILS
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="accessory">
+                                <span class="category-icon">&#9679;</span>
+                                PATCH CORD SM
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="transceiver">
+                                <span class="category-icon">&#9679;</span>
+                                PATCH CORD OM1/OM2 MM
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="PATCH-OM3">
+                                <span class="category-icon">&#9679;</span>
+                                PATCH CORD OM3
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="PATCH-OM4">
+                                <span class="category-icon">&#9679;</span>
+                                PATCH CORD OM4
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="PATCH-OM5">
+                                <span class="category-icon">&#9679;</span>
+                                PATCH CORD OM5
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="BASE-STATION">
+                                <span class="category-icon">&#9679;</span>
+                                FTTA OUTDOOR FIBER PATCH CABLE FOR BASE STATION
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="FTTH-PATCH">
+                                <span class="category-icon">&#9679;</span>
+                                FTTH FIBER OPTIC DROP CABLE PATCH CORD
+                            </button>
+                        </li>
+                        <li>
+                            <button class="category-btn" data-category="MPO-MTP">
+                                <span class="category-icon">&#9679;</span>
+                                MPO/MTP PATCH CORD
+                            </button>
+                        </li>
+                    </ul>
+                </aside>
+
+                <!-- Right Content - Product Gallery -->
+                <div class="catalog-content">
+                    <!-- OUTDOOR FIBER OPTIC CABLE -->
+                    <div class="category-content active" id="fiber-cable">
+                        <h2 class="category-title">OUTDOOR FIBER OPTIC CABLE</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/1.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYXTC8Y</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/2.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYXTC8S</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/3.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYTC8S</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/4.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYTC8A</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/5.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYXTW 2-24F</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/6.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYXTW 24-48F</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/7.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYFXTY</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/8.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYFTY</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/9.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYFTY53</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/10.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYTA</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/11.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYTS</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/12.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GYTA53</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/13.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">ADSS</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/14.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">JET</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/OUTDOOR/15.jpg" alt="OUTDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">OUTDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">ASU</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- INDOOR FIBER OPTIC CABLE -->
+                    <div class="category-content" id="patchcord">
+                        <h2 class="category-title">INDOOR FIBER OPTIC CABLE</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/1.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">simplex GJFJV(H)</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/2.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">duplex GJFJV(H)</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/3.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">0.9mm buffer</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/4.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GJFJV(H)</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/5.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GJPFJV(H)</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/indoor/6.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GJPFJV(H)</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/indoor/7.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">GJBFJH 2-24F</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/indoor/8.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">simplex armored GJFSJV</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/indoor/9.jpg" alt="INDOOR FIBER OPTIC CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">INDOOR FIBER OPTIC CABLE</div>
+                                <div class="gallery-label">duplex armored GJFSJV</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FTTH CABLE -->
+                    <div class="category-content" id="odf">
+                        <h2 class="category-title">FTTH CABLE</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/ftth/1.jpg" alt="FTTH CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">FTTH CABLE</div>
+                                <div class="gallery-label">indoor GJXCH</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/ftth/2.jpg" alt="FTTH CABLE" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">FTTH CABLE</div>
+                                <div class="gallery-label">outdoor GJYXCH</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PIGTAILS -->
+                    <div class="category-content" id="cabinet">
+                        <h2 class="category-title">PIGTAILS</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/1.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC/APC  SX  SM  0.9mm</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/2.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC/UPC  SX  SM  0.9mm</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/3.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC/UPC  SX  SM  0.9mm</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/4.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">ST/UPC SX OM3  0.9mm</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/5.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">ST / UPC  SX SM   0.9mm</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/6.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / UPC SX OM3  0.9mm</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/7.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / APC SX SM  0.9mm</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/8.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC / UPC SX  OM3  0.9mm</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/9.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / UPC 12 Fibers SM  0.9mm, 12-Color</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/10.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC / APC  12 Fibers  SM  0.9mm, 12-Color</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/11.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC / UPC 12 Fibers SM  0.9mm, 12-Color</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/12.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / APC 12 Fibers SM 0.9mm, 12-Color</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/13.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / UPC 12 Fibers, Bunch, SM,  0.9mm, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/14.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / UPC  12 Fibers, Bunch, OM3 , 0.9mm, Aqua</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/15.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / UPC 12 Fibers, Bunch, OM4 , 0.9mm, Aqua</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/16.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC / APC  12 Fibers, Bunch,  SM , 0.9mm, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/17.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">SC / UPC 12 Fibers, Bunch, SM , 0.9mm, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PIGTAILS/18.jpg" alt="PIGTAILS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PIGTAILS</div>
+                                <div class="gallery-label">LC / APC 12 Fibers, Bunch, SM, 0.9mm, Yellow</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PATCH CORD SM -->
+                    <div class="category-content" id="accessory">
+                        <h2 class="category-title">PATCH CORD SM</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/1.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / APC to SC / APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/2.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / UPC to SC / UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/3.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/4.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / UPC to SC / APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/5.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to SC / APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/6.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to SC / UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/7.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to LC / APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/8.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / UPC to FC / APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/9.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to ST / UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/10.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to FC/ UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/11.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / APC to FC/ APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/12.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / APC to LC/ UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/13.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / APC to FC/ UPC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/14.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / APC to SC/ APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/15.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">FC / APC to LC/ APC, SX, 1 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/16.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / UPC to SC / UPC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/17.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / APC to SC / APC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/18.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">ST / UPC to ST / UPC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/19.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/20.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to SC / UPC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/21.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to ST / UPC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/22.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to SC/ APC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/23.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / UPC to ST/ APC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/24.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">SC / APC to LC/ APC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-SM/25.jpg" alt="PATCH CORD SM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD SM</div>
+                                <div class="gallery-label">LC / UPC to LC/ APC, DX, 2 F, SM, 2.0mm, Tight-Buffered, Yellow</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PATCH CORD OM1/OM2 MM -->
+                    <div class="category-content" id="transceiver">
+                        <h2 class="category-title">PATCH CORD OM1/OM2 MM</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/1.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC,  SX, 1F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/2.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">SC / UPC to SC / UPC,  SX, 1F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/3.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC,  DX, 2F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/4.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">LC / UPC to ST / UPC,  DX, 2F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/5.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">LC / UPC to SC / UPC, DX, 2F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/6.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">FC / UPC to FC / UPC, DX, 2 F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/PATCH-OM12/7.jpg" alt="PATCH CORD OM1/OM2 MM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM1/OM2 MM</div>
+                                <div class="gallery-label">SC / UPC to SC / UPC, DX, 2 F, OM1,  2.0mm, Tight-Buffered, Orange</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PATCH CORD OM3 -->
+                    <div class="category-content" id="PATCH-OM3">
+                        <h2 class="category-title">PATCH CORD OM3</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM3/1.jpg" alt="PATCH CORD OM3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM3</div>
+                                <div class="gallery-label">SC / UPC to SC / UPC, DX, 2 F, OM3,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM3/2.jpg" alt="PATCH CORD OM3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM3</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, DX, 2 F, OM3,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM3/3.jpg" alt="PATCH CORD OM3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM3</div>
+                                <div class="gallery-label">LC / UPC to SC / UPC, DX, 2 F, OM3,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM3/4.jpg" alt="PATCH CORD OM3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM3</div>
+                                <div class="gallery-label">SC / UPC to ST / UPC, DX, 2 F, OM3,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- PATCH CORD OM4 -->
+                    <div class="category-content" id="PATCH-OM4">
+                        <h2 class="category-title">PATCH CORD OM4</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM4/1.jpg" alt="PATCH CORD OM4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM4</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, DX, 2 F, OM4,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM4/2.jpg" alt="PATCH CORD OM4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM4</div>
+                                <div class="gallery-label">LC / UPC to SC / UPC, DX, 2 F, OM4,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM4/3.jpg" alt="PATCH CORD OM4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM4</div>
+                                <div class="gallery-label">SC / UPC to ST / UPC, DX, 2 F, OM4,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM4/4.jpg" alt="PATCH CORD OM4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM4</div>
+                                <div class="gallery-label">FC / UPC to FC / UPC, DX, 2 F, OM4,  2.0mm, Tight-Buffered, Aqua</div>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- PATCH CORD OM5 -->
+                    <div class="category-content" id="PATCH-OM5">
+                        <h2 class="category-title">PATCH CORD OM5</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM5/1.jpg" alt="PATCH CORD OM5" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM5</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, SX, 1 F, OM5,  2.0mm, Tight-Buffered, Lime Green</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/PATCH-OM5/2.jpg" alt="PATCH CORD OM5" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">PATCH CORD OM5</div>
+                                <div class="gallery-label">LC / UPC to LC / UPC, DX, 1 F, OM5,  2.0mm, Tight-Buffered, Lime Green</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FTTA OUTDOOR FIBER PATCH CABLE FOR BASE STATION -->
+                    <div class="category-content" id="BASE-STATION">
+                        <h2 class="category-title">FTTA OUTDOOR FIBER PATCH CABLE FOR BASE STATION</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/BASE-STATION/1.jpg" alt="FTTA OUTDOOR FIBER PATCH CABLE FOR BASE STATION5" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">FTTA OUTDOOR FIBER PATCH CABLE FOR BASE STATION</div>
+                                <div class="gallery-label">1.LC /UPC to SC / UPC DX SM 7.0mm LSZ</div>
+                            </div>
+                        </div>
+                    </div>
+                                                            <!-- FTTH FIBER OPTIC DROP CABLE PATCH CORD  -->
+                    <div class="category-content" id="FTTH-PATCH">
+                        <h2 class="category-title">FTTH FIBER OPTIC DROP CABLE PATCH CORD </h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/FTTH-PATCH/1.jpg" alt="FTTH FIBER OPTIC DROP CABLE PATCH CORD " onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">FTTH FIBER OPTIC DROP CABLE PATCH CORD </div>
+                                <div class="gallery-label">SC-SC  APC/UPC  SM </div>
+                            </div>
+                        </div>
+                    </div>
+                                                            <!-- MPO/MTP PATCH CORD -->
+                    <div class="category-content" id="MPO-MTP">
+                        <h2 class="category-title">MPO/MTP PATCH CORD</h2>
+                        <div class="product-gallery">
+                            <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/1.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Jumper, MTP®-12 UPC (Female) to MTP®-12 UPC (Female), 12 F, OM4, 0.35dB Max, Type B, Magenta</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/2.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP®-12 APC (Female) to MTP®-12 APC (Female), 12 F, SM, 0.35dB Max, Type A, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/3.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">3.MTP®-24 UPC (Female) to MTP®-24 UPC (Female), 24 F, OM4,  0.35dB Max, Type A, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/4.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label"> MTP®-24 APC (Female) to MTP®-24 APC (Female), 24 F, SM, Plenum (OFNP), 0.35dB Max, Type A, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/5.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP®-12 UPC (Female) to MTP®-12 UPC (Female), 12 F, OM5, 0.35dB Max, Type A, Lime Green</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/6.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP®-24 UPC (Female) to MTP®-24 UPC (Female), 24 F, OM5,  0.35dB Max, Type A, Lime Green</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/7.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP®-16 APC (Female) to MTP®-16 APC (Female), 16 F, SM,  0.35dB Max, Crossover, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/8.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Armored Jumper, MTP®-12 UPC (Female) to MTP®-12 UPC (Female), 12 F, OM4,  0.35dB Max, Type B, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/9.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Armored Jumper, MTP®-12 APC (Female) to MTP®-12 APC (Female), 12 F, SM, 0.35dB Max, Type B, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/10.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MPO Jumper, MPO-24 UPC (Female) to MPO-24 UPC (Female), 24 F, OM3, LSZH, 0.35dB Max, Type A, Aqua</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/11.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-8 APC (Female) to 4 LC UPC Duplex, 8 F, SM, 0.35dB Max, Type B, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/12.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-8 UPC (Female) to 4 LC UPC Duplex, 8 F, OM4,  0.35dB Max, Type B, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/13.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-16 APC (Female) to 8 LC UPC Duplex, 16 F, OM4, 0.35dB Max, Crossover, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/14.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-8 APC (Female) to 4 MDC UPC Duplex, 8 F, SM,  0.35dB Max, Type B, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/15.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-8 APC (Female) to 4 LC UPC Duplex, 8 F, SM,  0.35dB Max, Type B, Black</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/16.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Harness, MTP®-8 APC (Female) to 4 LC UPC Duplex, 8 F, SM, LSZH, 0.35dB Max, Type A, 0.9mm Breakout Leg, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/17.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Trunk Cable, MTP®-12 UPC (Female) to MTP®-12 UPC (Female), 48 F, OM4, 0.25dB Max, Type A, Double Jacket, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/18.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Trunk Cable, MTP®-12 APC (Female) to MTP®-12 APC (Female), 48 F, SM,  0.35dB Max, Type A, Double Jacket, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/19.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Trunk Cable, MTP®-8 UPC (Male) to MTP®-8 UPC (Male), 32 F, OM3, 0.25dB Max, Type B, Double Jacket, Aqua</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/20.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Hybrid Trunk Cable, MTP®-8 UPC (Female) to 4 LC UPC Duplex Uniboot, 32 F, OM4,  0.25dB Max, Type B, Double Jacket, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/21.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Hybrid Trunk Cable, MTP®-8 APC (Female) to 4 LC UPC Duplex Uniboot, 32 F, SM, 0.35dB Max, Type B, Double Jacket, Yellow</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/22.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Hybrid Trunk Cable, MTP®-12 UPC (Female) to 6 LC UPC Duplex Uniboot, 48 F, OM3,  0.25dB Max, Type B, Double Jacket, Aqua</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/23.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MTP® Trunk Cable, MTP®-12 UPC (Female) to MTP®-12 UPC (Female), 24 F (2x 12F), OM4, LSZH, 0.35dB Max, Type A, Braided Tubing, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/24.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MPO Breakout Cable, MPO-12 APC (Female) to 2 x MPO-4 APC (Female), 12 F, OM4,  0.35dB Max, Type B, Magenta</div>
+                            </div>
+                                                        <div class="gallery-item">
+                                <img src="images/products/MPO-MTP/25.jpg" alt="MPO/MTP PATCH CORD" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                <div class="gallery-placeholder" style="display:none">MPO/MTP PATCH CORD</div>
+                                <div class="gallery-label">MPO Breakout Cable, MPO-12 APC (Female) to 2 x MPO-4 APC (Female), 12 F, SM , 0.35dB Max, Type B, Yellow</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <h2 class="cta-title" data-i18n="needCustom">Need Custom Products?</h2>
+            <p class="cta-desc" data-i18n="needCustomDesc">We can customize special specifications per customer requirements</p>
+            <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="consultNow">Consult Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo/logo.jpg" alt="vicable" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span>vicable</span>
+                    </a>
+                    <p class="footer-desc" data-i18n="footerDesc">Professional fiber optic cable manufacturer, committed to providing high-quality communication products to global customers</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="aboutUs">About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-i18n="companyIntro">Company Introduction</a></li>
+                        <li><a href="about.html" data-i18n="productionEquipment">Production Equipment</a></li>
+                        <li><a href="about.html" data-i18n="qualityCert">Quality Certification</a></li>
+                        <li><a href="about.html" data-i18n="partners2">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="contactUs2">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><span data-i18n="phone">Phone</span>: +86 188-1854-8214</li>
+                        <li><span data-i18n="email">Email</span>: info@vicable.com</li>
+                        <li><span data-i18n="address">Address</span>: Shenzhen, Guangdong, China</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 vicable. <span data-i18n="copyright">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
