@@ -14,7 +14,7 @@ const translations = {
 
         // Home - Hero
         heroBadge: "Professional Fiber Optic Manufacturer",
-        heroTitle: "Global Links, Local Trust.",
+        heroTitle: "Trusted Fiber, Reliable Connect",
         heroTitle2: "Local Trust",
         heroDesc: "10 years of industry experience, dedicated to R&D and production of high-quality fiber optic cables, products exported to 100+ countries",
         viewProducts: "View Products",
@@ -27,6 +27,10 @@ const translations = {
         productsTitle: "Core Products",
         productsDesc: "Using high-quality raw materials, advanced production process, strict quality control",
         viewAllProducts: "View All Products",
+
+        // Quality Assurance
+        qaTitle: "Quality Assurance",
+        qaDesc: "We conduct quality inspections at every step of the production process. From raw materials to the end of the entire production process, we have established a comprehensive quality management system. In the whole production process, we will record the inspection results of each production step to ensure that all products can meet the required quality standards.",
 
         // Home - Features
         iso9001: "ISO9001 Certified",
@@ -54,6 +58,7 @@ const translations = {
         phone: "Phone",
         email: "Email",
         address: "Address",
+        companyAddress: "Shenzhen, Guangdong, China",
         copyright: "All Rights Reserved.",
 
         // Products Page
@@ -120,7 +125,7 @@ const translations = {
 
         // Home - Hero
         heroBadge: "Fabricant Professionnel de Fibres Optiques",
-        heroTitle: "Liens mondiaux, confiance locale.",
+        heroTitle: "Fibre de Confiance, Connexion Fiable",
         heroTitle2: "Sans Limites",
         heroDesc: "10 ans d'expérience dans l'industrie, engagés dans la R&D et la production de câbles à fibres optiques de haute qualité, produits exportés vers plus de 100 pays",
         viewProducts: "Voir les Produits",
@@ -133,6 +138,10 @@ const translations = {
         productsTitle: "Produits Principaux",
         productsDesc: "Utilisation de matières premières de haute qualité, processus de production avancé, contrôle qualité strict",
         viewAllProducts: "Voir Tous les Produits",
+
+        // Quality Assurance
+        qaTitle: "Assurance Qualité",
+        qaDesc: "Nous effectuons des contrôles qualité à chaque étape du processus de production. Des matières premières jusqu'à la fin de l'ensemble du processus de production, nous avons établi un système de gestion qualité complet. Dans l'ensemble du processus de production, nous enregistrerons les résultats de contrôle de chaque étape pour garantir que tous les produits respectent les normes de qualité requises.",
 
         // Home - Features
         iso9001: "Certifié ISO9001",
@@ -161,6 +170,7 @@ const translations = {
         email: "Email",
         address: "Adresse",
         copyright: "Tous Droits Réservés.",
+        companyAddress: "Shenzhen, Guangdong, Chine",
 
         // Products Page
         productsPageTitle: "Catalogue de Produits",
@@ -169,6 +179,14 @@ const translations = {
         needCustom: "Besoin de Produits Personnalisés?",
         needCustomDesc: "Nous pouvons personnaliser des spécifications spéciales selon les exigences des clients",
         consultNow: "Consulter Maintenant",
+        indoorCable: "Câble Fibre Optique Intérieur",
+        outdoorCable: "Câble Fibre Optique Extérieur",
+        ftthCable: "Câble FTTH",
+        pigtails: "Pigtails",
+        patchCordSM: "Patch Cord SM",
+        patchCordMM: "Patch Cord OM1/OM2 MM",
+        patchCordOM3: "Patch Cord OM3",
+        contactDesc: "Merci pour votre intérêt pour vicable! Notre équipe professionnelle est prête à vous servir.",
 
         // About Page
         aboutPageTitle: "À Propos de Nous",
@@ -218,8 +236,8 @@ const translations = {
 
         // Home - Hero
         heroBadge: "Fabricante Profesional de Fibra Óptica",
-        heroTitle: "Enlaces globales, confianza local.",
-        heroTitle2: "Ilimitado",
+        heroTitle: "Fibra de Confianza, Conexión Fiable",
+        heroTitle2: "ILimitado",
         heroDesc: "10 años de experiencia en la industria, dedicados a la I+D y producción de cables de fibra óptica de alta calidad, productos exportados a más de 100 países",
         viewProducts: "Ver Productos",
         contactNow: "Contactar Ahora",
@@ -231,6 +249,10 @@ const translations = {
         productsTitle: "Productos Principales",
         productsDesc: "Uso de materias primas de alta calidad, proceso de producción avanzado, control de calidad estricto",
         viewAllProducts: "Ver Todos los Productos",
+
+        // Quality Assurance
+        qaTitle: "Aseguramiento de Calidad",
+        qaDesc: "Realizamos inspecciones de calidad en cada etapa del proceso de producción. Desde las materias primas hasta el final de todo el proceso de producción, hemos establecido un sistema integral de gestión de calidad. En todo el proceso de producción, registraremos los resultados de inspección de cada paso para garantizar que todos los productos puedan cumplir con los estándares de calidad requeridos.",
 
         // Home - Features
         iso9001: "Certificado ISO9001",
@@ -259,6 +281,7 @@ const translations = {
         email: "Correo",
         address: "Dirección",
         copyright: "Todos los Derechos Reservados.",
+        companyAddress: "Shenzhen, Guangdong, China",
 
         // Products Page
         productsPageTitle: "Catálogo de Productos",
@@ -267,6 +290,14 @@ const translations = {
         needCustom: "¿Necesita Productos Personalizados?",
         needCustomDesc: "Podemos personalizar especificaciones especiales según los requisitos del cliente",
         consultNow: "Consultar Ahora",
+        indoorCable: "Cable de Fibra Óptica Interior",
+        outdoorCable: "Cable de Fibra Óptica Exterior",
+        ftthCable: "Cable FTTH",
+        pigtails: "Pigtails",
+        patchCordSM: "Patch Cord SM",
+        patchCordMM: "Patch Cord OM1/OM2 MM",
+        patchCordOM3: "Patch Cord OM3",
+        contactDesc: "¡Gracias por su interés en vicable! Nuestro equipo profesional está listo para servirle.",
 
         // About Page
         aboutPageTitle: "Sobre Nosotros",
@@ -316,7 +347,7 @@ const translations = {
 
         // Home - Hero
         heroBadge: "Fabricante Profissional de Fibra Óptica",
-        heroTitle: "Conexões globais, confiança local.",
+        heroTitle: "Fibra Confiável, Conexão Fiável",
         heroTitle2: "Ilimitado",
         heroDesc: "10 anos de experiência na indústria, dedicados à P&D e produção de cabos de fibra óptica de alta qualidade, produtos exportados para mais de 100 países",
         viewProducts: "Ver Produtos",
@@ -329,6 +360,10 @@ const translations = {
         productsTitle: "Produtos Principais",
         productsDesc: "Uso de matérias-primas de alta qualidade, processo de produção avançado, controle de qualidade estrito",
         viewAllProducts: "Ver Todos os Produtos",
+
+        // Quality Assurance
+        qaTitle: "Garantia de Qualidade",
+        qaDesc: "Conduzimos inspeções de qualidade em cada etapa do processo de produção. Desde matérias-primas até o final de todo o processo de produção, estabelecemos um sistema abrangente de gestão de qualidade. Em todo o processo de produção, registraremos os resultados de inspeção de cada etapa para garantir que todos os produtos possam atender aos padrões de qualidade exigidos.",
 
         // Home - Features
         iso9001: "Certificado ISO9001",
@@ -357,6 +392,7 @@ const translations = {
         email: "Email",
         address: "Endereço",
         copyright: "Todos os Direitos Reservados.",
+        companyAddress: "Shenzhen, Guangdong, China",
 
         // Products Page
         productsPageTitle: "Catálogo de Produtos",
@@ -365,6 +401,14 @@ const translations = {
         needCustom: "Precisa de Produtos Personalizados?",
         needCustomDesc: "Podemos personalizar especificações especiais de acordo com os requisitos do cliente",
         consultNow: "Consultar Agora",
+        indoorCable: "Cabo de Fibra Óptica Interior",
+        outdoorCable: "Cabo de Fibra Óptica Exterior",
+        ftthCable: "Cabo FTTH",
+        pigtails: "Pigtails",
+        patchCordSM: "Patch Cord SM",
+        patchCordMM: "Patch Cord OM1/OM2 MM",
+        patchCordOM3: "Patch Cord OM3",
+        contactDesc: "Obrigado pelo seu interesse em vicable! Nossa equipe profissional está pronta para atendê-lo.",
 
         // About Page
         aboutPageTitle: "Sobre Nós",
@@ -414,7 +458,7 @@ const translations = {
 
         // Home - Hero
         heroBadge: "مصنع ألياف بصرية محترف",
-        heroTitle: "روابط عالمية، ثقة محلية.",
+        heroTitle: "ألياف موثوقة، اتصال موثوق",
         heroTitle2: "غير محدود",
         heroDesc: "10 سنوات خبرة في الصناعة، مكرس للبحث والتطوير وإنتاج كابلات الألياف البصرية عالية الجودة، المنتجات المصدرة إلى أكثر من 100 دولة",
         viewProducts: "عرض المنتجات",
@@ -427,6 +471,10 @@ const translations = {
         productsTitle: "المنتجات الرئيسية",
         productsDesc: "استخدام مواد خام عالية الجودة، عملية إنتاج متقدمة، ضبط جودة صارم",
         viewAllProducts: "عرض جميع المنتجات",
+
+        // Quality Assurance
+        qaTitle: "ضمان الجودة",
+        qaDesc: "نجري فحوصات الجودة في كل مرحلة من مراحل العملية الإنتاجية. من المواد الخام حتى نهاية العملية الإنتاجية الكاملة، أنشأنا نظامًا شاملًا لإدارة الجودة. في كامل العملية الإنتاجية، سنregistrer نتائج الفحص لكل خطوة لضمان قدرة جميع المنتجات على تلبية معايير الجودة المطلوبة.",
 
         // Home - Features
         iso9001: "حاصل على شهادة ISO9001",
@@ -454,6 +502,7 @@ const translations = {
         phone: "الهاتف",
         email: "البريد الإلكتروني",
         address: "العنوان",
+        companyAddress: "شنتشن، قوانغدونغ، الصين",
         copyright: "جميع الحقوق محفوظة.",
 
         // Products Page
@@ -463,6 +512,14 @@ const translations = {
         needCustom: "هل تحتاج منتجات مخصصة؟",
         needCustomDesc: "يمكننا تخصيص مواصفات خاصة حسب متطلبات العميل",
         consultNow: "استشر الآن",
+        indoorCable: "كابل الألياف البصري الداخلي",
+        outdoorCable: "كابل الألياف البصري الخارجي",
+        ftthCable: "كابل FTTH",
+        pigtails: "البيلايل",
+        patchCordSM: "خيط التوصيل SM",
+        patchCordMM: "خيط التوصيل OM1/OM2 MM",
+        patchCordOM3: "خيط التوصيل OM3",
+        contactDesc: "شكراً لاهتمامك بـ vicable! فريقنا الاحترافي جاهز لخدمتك.",
 
         // About Page
         aboutPageTitle: "عن الشركة",
@@ -512,7 +569,7 @@ const translations = {
 
         // Home - Hero
         heroBadge: "Professioneller Glasfaserhersteller",
-        heroTitle: "Globale Verbindungen, lokales Vertrauen.",
+        heroTitle: "Zuverlässige Faser, Zuverlässige Verbindung",
         heroTitle2: "Unbegrenzt",
         heroDesc: "10 Jahre Branchenerfahrung, widmet sich der F&E und Produktion von hochwertigen Glasfaserkabeln, Produkte in über 100 Länder exportiert",
         viewProducts: "Produkte Ansehen",
@@ -525,6 +582,10 @@ const translations = {
         productsTitle: "Kernprodukte",
         productsDesc: "Verwendung von hochwertigen Rohstoffen, fortsichtlicher Produktionsprozess, strenge Qualitätskontrolle",
         viewAllProducts: "Alle Produkte Ansehen",
+
+        // Quality Assurance
+        qaTitle: "Qualitätssicherung",
+        qaDesc: "Wir führen Qualitätskontrollen in jedem Schritt des Produktionsprozesses durch. Von den Rohstoffen bis zum Ende des gesamten Produktionsprozesses haben wir ein umfassendes Qualitätsmanagementsystem etabliert. Im gesamten Produktionsprozess erfassen wir die Inspektionsergebnisse jedes Produktionsschritts, um sicherzustellen, dass alle Produkte die erforderlichen Qualitätsstandards erfüllen.",
 
         // Home - Features
         iso9001: "ISO9001 Zertifiziert",
@@ -553,6 +614,7 @@ const translations = {
         email: "E-Mail",
         address: "Adresse",
         copyright: "Alle Rechte Vorbehalten.",
+        companyAddress: "Shenzhen, Guangdong, China",
 
         // Products Page
         productsPageTitle: "Produktkatalog",
@@ -561,6 +623,14 @@ const translations = {
         needCustom: "Benötigen Sie Benutzerdefinierte Produkte?",
         needCustomDesc: "Wir können spezielle Spezifikationen nach Kundenanforderungen anpassen",
         consultNow: "Jetzt Beraten",
+        indoorCable: "Innen-Glasfaserkabel",
+        outdoorCable: "Außen-Glasfaserkabel",
+        ftthCable: "FTTH-Kabel",
+        pigtails: "Pigtails",
+        patchCordSM: "Patch Cord SM",
+        patchCordMM: "Patch Cord OM1/OM2 MM",
+        patchCordOM3: "Patch Cord OM3",
+        contactDesc: "Vielen Dank für Ihr Interesse an vicable! Unser professionelles Team steht Ihnen gerne zur Verfügung.",
 
         // About Page
         aboutPageTitle: "Über Uns",

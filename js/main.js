@@ -78,8 +78,55 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryBtns = document.querySelectorAll('.category-btn');
     const categoryContents = document.querySelectorAll('.category-content');
 
+    // Handle dropdown toggle
+    const dropdownToggles = document.querySelectorAll('.category-dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const dropdown = toggle.parentElement;
+            const isOpen = dropdown.classList.contains('open');
+            // Close all dropdowns
+            document.querySelectorAll('.category-dropdown').forEach(d => d.classList.remove('open'));
+            // Toggle current dropdown
+            if (!isOpen) {
+                dropdown.classList.add('open');
+            }
+        });
+    });
+
+    // Handle sub-category clicks
+    const subCategoryBtns = document.querySelectorAll('.sub-category-btn');
+    subCategoryBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const subCategory = btn.dataset.category;
+            // Remove active class from all buttons
+            categoryBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            btn.classList.add('active');
+            // Hide all category content
+            categoryContents.forEach(content => content.classList.remove('active'));
+            // Show selected category content
+            const contentEl = document.getElementById(subCategory);
+            if (contentEl) {
+                contentEl.classList.add('active');
+            } else {
+                // If no content, try parent category
+                const parentCategory = subCategory.replace('-3', '').replace('-2', '').replace('-1', '');
+                const parentContent = document.getElementById(parentCategory);
+                if (parentContent) {
+                    parentContent.classList.add('active');
+                }
+            }
+        });
+    });
+
     categoryBtns.forEach(btn => {
         btn.addEventListener('click', () => {
+            // Skip if it's a dropdown toggle or sub-category (handled separately)
+            if (btn.classList.contains('category-dropdown-toggle') || btn.classList.contains('sub-category-btn')) {
+                return;
+            }
             // Remove active class from all buttons
             categoryBtns.forEach(b => b.classList.remove('active'));
             // Add active class to clicked button
