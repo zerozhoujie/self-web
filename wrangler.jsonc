@@ -2,13 +2,15 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "self-web",
   "compatibility_date": "2026-05-09",
-  "observability": {
-    "enabled": true
+  "pages_build_output_dir": ".",
+
+  "build": {
+    "command": ""
   },
-  "assets": {
-    "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
+
+  "exclude": [
+    "**/.git",
+    "**/.git/**",
+    "**/README.md"
   ]
 }
