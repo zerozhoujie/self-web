@@ -1,0 +1,18 @@
+name = "vicable"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./"
+
+# Explicitly exclude large/unnecessary files
+exclude = [
+  "**/.git/**",
+  "**/.gitignore",
+  "**/.DS_Store",
+  "**/Thumbs.db",
+  "**/*.psd",
+  "**/*.ai",
+  "README.md"
+]
+
+# Cloudflare Pages asset size limit is 25MiB per file
