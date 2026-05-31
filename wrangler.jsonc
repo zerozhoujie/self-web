@@ -12,9 +12,12 @@
     "nodejs_compat"
   ],
 
-  "exclude": [
-    "**/.git",
-    "**/.git/**",
-    "**/README.md"
-  ]
+  "pages": {
+    "build_output_dir": "./",
+    "exclude": [
+      ".git",
+      "*.md",
+      "LICENSE"
+    ]
+  }
 }
