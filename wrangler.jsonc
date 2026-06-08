@@ -6,19 +6,17 @@
     "enabled": true
   },
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "exclude": [
+        ".git/**",
+        ".gitignore",
+        ".DS_Store"
+    ]
   },
   "compatibility_flags": [
     "nodejs_compat"
   ],
 
   // 静态资源目录（你原来的配置）
-  "pages_build_output_dir": "./",
-
-  // 重点：加上这段，排除 .git 和其他垃圾文件
-  "exclude": [
-    ".git/**",
-    ".gitignore",
-    ".DS_Store"
-  ]
+  "pages_build_output_dir": "./"
 }
